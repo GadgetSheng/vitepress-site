@@ -10,8 +10,8 @@ const { nav, sidebar } = mergeMenu(menu);
 module.exports = {
   base: process.env.PROJECT_PATH || PREFIX,
   outDir: '../public',
-  head: [['link', { rel: 'icon', href: PREFIX + 'favicon.ico', type: 'image/x-icon' }]],
-  title: '团中台/BFE',
+  head: [['link', { rel: 'icon', href: PREFIX + 'images/logo.ico', type: 'image/x-icon' }]],
+  title: 'Gadget Docs',
   titleTemplate: false,
   markdown: { toc: { level: [1, 2] } },
   ignoreDeadLinks: true,
@@ -19,7 +19,7 @@ module.exports = {
   lastUpdated: true, // frontmatter also work
   themeConfig: {
     siteTitle: '[ᴛʀɪᴘᴏᴄʀ]',
-    logo: '/images/logo.ico',
+    logo: '/favicon.ico',
     nav, sidebar,
     footer: {
       message: "-- Think Twice --",
