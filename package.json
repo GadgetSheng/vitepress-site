@@ -1,0 +1,17 @@
+{
+  "name": "@gadget/vitepress-site",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/GadgetSheng/vitepress-site.git",
+  "author": "jqsheng <jqsheng@trip.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vitepress dev src --host",
+    "build": "vitepress build src",
+    "preview": "vitepress preview src"
+  },
+  "devDependencies": {
+    "vitepress": "^1.0.0-alpha.45",
+    "vue": "^3.2.47"
+  }
+}
