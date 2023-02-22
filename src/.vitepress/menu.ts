@@ -13,7 +13,7 @@ const nav: any[] = [
   {
     text: '<LEARN>',
     activeMatch: String(/learn/),
-    link: '/learn/',
+    link: '/learn/zustand',
   },
 ]
 
