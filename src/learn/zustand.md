@@ -201,10 +201,10 @@ const createStoreImpl = createState => {
     const api = {
         getState,
         setState,
-+        subscribe
+        subscribe // [!code ++]
     }
     // 调用 createState 函数，初始化 state 的值
-+    state = createState(setState, getState, api);
+    state = createState(setState, getState, api); // [!code ++]
     // 返回 api
     return api;
 }
@@ -216,7 +216,7 @@ export const createStore = createState => createStoreImpl(createState);
 export default createStore;
 ```
 
-## react.js
+## 5.2 react.js
 src\zustand\react.js
 ```js
 // 导入 createStore 函数
